@@ -1,0 +1,495 @@
+/* botão basico */
+
+.btn button{
+    font-size: 3em;
+    }
+    
+    .btn-basic button{
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #AE90F5;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        line-height: 1cm;
+    
+    }
+    
+    /* botão situ */
+    .btn-sit a button{
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #FBD0D5;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn-sit b button{
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #FBD0D5;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn-sit c button{
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #FBD0D5;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn-sit d button {
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #FBD0D5;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /* botão voc */
+    
+    .btn-voc a button{
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #F3F98F;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn-voc b button{
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #F3F98F;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn-voc c button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #F3F98F;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn-voc d button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #F3F98F;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    /*botão atvd */
+    
+    .btn-atvd button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #BEF0A6;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    /*botão download amarelo*/
+
+    .btn-amarelo button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #F3F98F;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: larger;
+    }
+    
+    /*botão download roxo*/
+
+    .btn-roxo button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #8e70d0;
+        color: #BEF0A6;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: larger;
+    }
+
+    /*botão download rosa*/
+
+    .btn-rosa button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #FBD0D5;
+        color: #000;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: larger;
+    }
+
+    /*botão download verde*/
+
+    .btn-verde button{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: #BEF0A6;
+        color: #8e70d0;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: larger;
+    }
+
+    /*botão download azulu*/
+    
+    .btn-azul button{
+        width: 350px;
+        height: 40px;
+        border: none;
+        background-color: #C6E0FF;
+        color: #000;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: larger;
+    }
+
+    /*SOBRE MALIBU*/
+
+    .texto-desc h3 center p {
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;
+    }    
+
+.textblock.bg-white .textblock_body {
+    background: #fff;
+}
+
+.textblock_body {
+    background: #fff;
+    overflow: hidden;
+    color: #000;
+    padding: 0 142px;
+    word-wrap: break-word;
+}
+
+
+@media screen and (max-width: 1440px){
+    .textblock_body {
+        padding: 0vw 9.86111111vw;
+    }
+}
+
+
+
+  .sobretc{
+    height: 100vh;
+    width: auto;
+    background-image: url(https://a.imagem.app/bgMo5e.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobretc h1{
+    font-size: 4em;
+    color: #00076974;
+}
+
+.sobretc h1 span{
+    color: #000769;
+}
+    
+    /* Configuração Global */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'DM Serif Display', serif;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    body{
+        min-height: auto;
+        }
+    
+    .container {
+        max-width: 1280px;
+        margin: auto;
+    }
+    
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    /* Header */
+    header {
+        width: 100%;
+        padding: 20px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        transition: all 0.5s;
+        z-index: 1000;
+    }
+    
+    header.rolagem {
+        background-color: #fff;
+        padding: 10px 4%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    header.rolagem a, header.rolagem i{
+        color: #AE90F5;
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+    }
+    
+    header nav ul li a {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    header nav ul li a:hover {
+        color: #AE90F5;
+    }
+    
+    .btn-contato button {
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #AE90F5;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .btn-contato button:hover {
+        background-color: #8e70d0;
+    }
+    
+    /* Banner amarelo*/
+    .banner-amar {
+        height: 70vh;
+        background-color: #F3F98F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Banner verde*/
+    .banner-ver {
+        height: 70vh;
+        background-color: #BEF0A6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Banner rosa*/
+    .banner-rosa {
+        height: 70vh;
+        background-color: #FBD0D5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Banner azul*/
+    .banner-azul {
+        height: 70vh;
+        background-color: #C6E0FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8px;
+    }
+    /* Banner roxo*/
+    .banner-roxo {
+        height: 70vh;
+        background-color: #AE90F5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        background: #8e70d0;
+        padding: 20px 10px;
+        color: #fff;
+    }
+    
+    h1{
+        color: #AE90F5;
+        font-family: 'DM Serif Display', serif;
+        font-size: 9em;
+    }
+    
+    h2{
+        color: #fff;
+    }
+    
+    h5{
+        color: #AE90F5;
+        font-family: 'Playfair Display', serif;
+        font-size: 3em;
+    }
+    
+    h8{
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-size: 1em;
+    }
+    
+    h9{
+        color: #BEF0A6;
+        font-family: 'DM Serif Display', serif;
+        font-size: 7em;
+    }
+
+    h10{
+        color: #000;
+        font-family: 'DM Serif Display', serif;
+        font-size: 9em;  
+    }
+
+    h11{
+        color: #000;
+        font-family: 'DM Serif Display', serif;
+        font-size: 7em;  
+    }
+
+    footer .boxs h2 {
+        margin-bottom: 10px;
+        
+    }
+    
+    footer .boxs ul {
+        list-style: none;
+    }
+    
+    footer .boxs ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    footer .boxs ul li a:hover {
+        color: #AE90F5;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #8e70d0;
+        padding: 10px 20px;
+    }
+    
+    .sociais .social {
+        margin: 0 10px;
+        background: #ddd;
+        border-radius: 5px;
+        text-align: center;
+        transition: background 0.3s;
+    }
+    
+    .sociais .social a {
+        color: #000;
+        font-size: 1.5em;
+        display: block;
+        padding: 10px;
+    }
+    
+    .sociais .social:hover {
+        background: #AE90F5;
+    }
+    
+    .sociais .social a:hover {
+        color: #fff;
+    }
+    
+    /* Responsividade */
+    @media (max-width: 768px) {
+        header nav ul {
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+        }
+    
+        header .flex {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .btn-contato {
+            margin-top: 10px;
+        }
+    
+        footer {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        footer .boxs {
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+    @media (max-width: 480px) {
+        .btn-contato button {
+            width: 100%;
+            font-size: 0.9em;
+        }
+    }
+    
